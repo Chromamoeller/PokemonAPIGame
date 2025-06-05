@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-stone-900;
+  height: 100vh;
+}
+
+#app {
+  height: 100%;
+}
