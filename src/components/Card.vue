@@ -48,16 +48,30 @@ console.log(pokemonURLs);
     </div>
 
     <!-- Unterer Bereich mit Move & Buttons -->
-    <div class="bg-gray-900 text-white p-3 text-center space-y-2">
+    <div class="bg-black text-white p-3 text-center space-y-2">
       <p class="first-letter:uppercase text-lg">
         {{ pokemonURLs[0].firstMove }}
       </p>
-      <div class="flex justify-center gap-2">
-        <button class="bg-white text-black px-2 py-1 rounded text-sm">
-          Info
+      <div class="flex flex-wrap gap-1 justify-center">
+        <button
+          class="bg-red-200 basis-[48%] text-black px-2 py-1 rounded text-sm hover:bg-red-400 hover:text-white"
+        >
+          Attack
         </button>
-        <button class="bg-white text-black px-2 py-1 rounded text-sm">
-          Catch
+        <button
+          class="bg-blue-200 basis-[48%] text-black px-2 py-1 rounded text-sm hover:bg-blue-400 hover:text-white"
+        >
+          Team
+        </button>
+        <button
+          class="bg-green-200 basis-[48%] text-black px-2 py-1 rounded text-sm hover:bg-green-400 hover:text-white"
+        >
+          Item
+        </button>
+        <button
+          class="bg-orange-200 basis-[48%] text-black px-2 py-1 rounded text-sm hover:bg-orange-400 hover:text-white"
+        >
+          Run
         </button>
       </div>
     </div>

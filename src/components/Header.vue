@@ -6,13 +6,10 @@
     <div class="w-full mx-auto px-4 py-4 flex items-center justify-between">
       <!-- Logo oder Spieltitel -->
       <div class="flex items-center space-x-2">
-        <img
-          src="https://img.icons8.com/emoji/48/hibiscus.png"
-          alt="Logo"
-          class="h-10 w-10"
-        />
+        <img src="/pokemonBilder/025-pikachu.png" class="h-10 w-10" />
+
         <span class="text-2xl font-extrabold text-green-800 tracking-wide"
-          >BloomQuest</span
+          >Poke Quest</span
         >
       </div>
 
